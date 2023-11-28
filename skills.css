@@ -1,13 +1,19 @@
 @font-face {
     font-family: 'Altone';
-    src: url('../Altone-2/OpenType-TT/Altone-Regular.ttf') format('truetype');
+    src: url('../Altone-2/Open_Type-TT/Altone-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
+/* Bold Font */
 @font-face {
     font-family: 'Altone';
-    src: url('../Altone-2/OpenType-TT/Altone-Bold.ttf') format('truetype');
+    src: url('../Altone-2/Open_Type-TT/Altone-Bold.ttf') format('truetype');
     font-weight: bold;
+}
+
+/* Fallback or Backup Font */
+body {
+    font-family: 'Altone', Arial, sans-serif;
 }
 
 
